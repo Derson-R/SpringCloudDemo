@@ -34,6 +34,21 @@
             <version>1.2.70</version>
         </dependency>
 
+
+        <!-- redis的一个java客户端 其他客户端详见官网-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.16.8</version>
+        </dependency>
+
+        <!-- 一个小而全的Java工具类库，官方文档地址：https://www.hutool.cn/ -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.22</version>
+        </dependency>
+
     </dependencies>
 
 

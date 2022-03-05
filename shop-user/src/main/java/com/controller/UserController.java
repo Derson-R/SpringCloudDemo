@@ -18,4 +18,12 @@ public class UserController {
         return user;
 
     }
+
+    public void setUserToRedis(){
+        log.info("开始向缓存中插入数据");
+        User user = new User(1,"张三","123","18955699999");
+
+        log.info("插入缓存成功");
+
+    }
 }
